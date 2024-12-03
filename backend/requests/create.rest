@@ -1,0 +1,10 @@
+POST http://localhost:5000/submissions
+Content-Type: application/json
+
+{
+    "name":"Sewoyebaa",
+    "email": "sewoyebaa@gmail.com",
+    "dateOfBirth": "21-12-2000",
+    "department": "human resource",
+    "comments": "Ny first comment for HR"
+}
