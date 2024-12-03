@@ -22,6 +22,7 @@ const app = express();
 //middlware
 app.use(cors());
 app.use(bodyParser.json());
+app.use(express.static("dist"));
 app.use(subRoutes);
 
 app.listen(PORT, () => {
